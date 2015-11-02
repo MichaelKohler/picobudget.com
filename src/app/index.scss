@@ -4,6 +4,24 @@
  */
 @import '../../bower_components/foundation/scss/foundation';
 
+body {
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 400;
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+h1, h2, h3, h4, h5, h6,
+button, .button {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+form {
+  .required {
+    color: red;
+    font-size: 0.8em;
+  }
+}
+
 /**
  *  Do not remove the comments below. It's the markers used by wiredep to inject
  *  sass dependencies when defined in the bower.json of your dependencies

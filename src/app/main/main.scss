@@ -1,65 +1,46 @@
-body {
-  font-family: 'Open Sans', sans-serif !important;
-  font-weight: 400;
-  background-color: rgba(0, 0, 0, 0.02);
-}
-
-h1, h2, h3, h4, h5, h6,
-button, .button {
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-}
-
-.button-group li {
-  padding-top: 3%;
-}
-
-.button-group a {
-  color: rgba(0, 0, 0, 1);
-  background-color: transparent;
-}
-
-.button-group a:hover {
-  color: rgba(0, 0, 0, 0.4);
-  background-color: transparent;
-}
-
 .button-group {
   float: none;
-}
 
-@media only screen and (min-width: 40.063em) {
-  .button-group {
+  li {
+    padding-top: 3%;
+  }
+
+  a {
+    color: rgba(0, 0, 0, 1);
+    background-color: transparent;
+
+    &:hover {
+      color: rgba(0, 0, 0, 0.4);
+      background-color: transparent;
+    }
+  }
+
+  @media only screen and (min-width: 40.063em) {
     float: right;
   }
 }
 
 .namelogo {
   padding: 20px 10px 0;
-}
 
-@media only screen and (min-width: 40.063em) {
-  .namelogo {
+  @media only screen and (min-width: 40.063em) {
     padding-bottom: 20px;
   }
-}
 
-.namelogo h1 {
-  font-size: 1.5em;
-  font-weight: 600;
-  text-align: center;
-}
+  h1 {
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
 
-@media only screen and (min-width: 40.063em) {
-  .namelogo h1 {
-    font-size: 16px;
-    text-align: left;
-  }
-}
+    @media only screen and (min-width: 40.063em) {
+      font-size: 16px;
+      text-align: left;
+    }
 
-@media only screen and (min-width: 64.063em) {
-  .namelogo h1 {
-    font-size: 24px;
-    text-align: left;
+    @media only screen and (min-width: 64.063em) {
+      font-size: 24px;
+      text-align: left;
+    }
   }
 }
 
@@ -93,35 +74,39 @@ button, .button {
   padding: 50px 0 0;
 }
 
-.about img {
-  width: 250px;
-  height: 250px;
-  border-radius: 150px;
-  -webkit-border-radius: 150px;
-  -moz-border-radius: 150px;
+.about {
+  img {
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+  }
 }
 
-.screenshots img:hover {
-  opacity: 0.5;
-  -webkit-transition: 0.3s ease;
-  -moz-transition: 0.3s ease;
-  -ms-transition: 0.3s ease;
-  -o-transition: 0.3s ease;
-  transition: 0.3s ease;
-}
+.screenshots {
+  img:hover {
+    opacity: 0.5;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+  }
 
-.screenshots li {
-  height: 140px;
-  overflow: hidden;
+  li {
+    height: 140px;
+    overflow: hidden;
+  }
 }
 
 footer {
   padding: 80px 0 0px;
-}
 
-footer a:hover {
-  color: rgba(0, 0, 0, 0.4);
-  background-color: transparent;
+  a:hover {
+    color: rgba(0, 0, 0, 0.4);
+    background-color: transparent;
+  }
 }
 
 .right {
