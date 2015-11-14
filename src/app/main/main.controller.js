@@ -1,14 +1,9 @@
 export class MainController {
-  constructor($modal) {
+  constructor() {
     'ngInject';
-
-    this.modal = $modal;
-    this.modalComponentElement = '<pb-login></pb-login>';
   }
 
-  openLogin() {
-    this.modal.open({
-      template: this.modalComponentElement
-    });
+  installApp() {
+    console.log('foo');
   }
 }
