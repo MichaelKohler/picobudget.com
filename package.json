@@ -1,7 +1,9 @@
 {
   "name": "PicoBudget",
   "version": "2.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "sails": "^0.11.2"
+  },
   "scripts": {
     "test": "gulp test"
   },
